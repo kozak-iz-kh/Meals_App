@@ -11,7 +11,6 @@ import {
 
 const CategoryGridTile = (props) => {
   let TouchableCmp = TouchableOpacity;
-  //some changes
 
   if (Platform.OS === "android" && Platform.Version >= 21) {
     TouchableCmp = TouchableNativeFeedback;
